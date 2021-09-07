@@ -11,10 +11,10 @@
               <div
                 class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0"
               >
-                <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                <div class="aspect-w-3 aspect-h-2 sm:aspect-w-1 sm:aspect-h-1">
                   <img
-                    class="object-cover shadow-lg rounded-lg"
-                    :src="person.imageUrl"
+                    class="object-cover shadow-lg rounded-lg object-top"
+                    src="@/assets/amelie.jpeg"
                     alt=""
                   />
                 </div>
@@ -90,7 +90,6 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
-  // More people...
 ];
 
 export default {
